@@ -77,6 +77,8 @@ It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
 
     ren→  render: fn() { return ... }
 
+    rpc→  pure render component skeleton
+
     rrc→  redux component skeleton
 
     scu→  shouldComponentUpdate: fn(np, ns) { ... }
