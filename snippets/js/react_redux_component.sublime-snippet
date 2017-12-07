@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
 import React from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 function mapStateToProps(state) {
@@ -11,7 +12,7 @@ function mapStateToProps(state) {
 
 export class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component {
 	static propTypes = {
-		${2:name}: React.PropTypes.${3:string},
+		${2:name}: PropTypes.${3:string},
 	};
 
 	constructor(props) {
